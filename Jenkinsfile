@@ -5,7 +5,7 @@ pipeline {
         HARBOR_CREDENTIALS = 'harbor-creds'
         IMAGE_NAME = '10.212.132.157/demo/dev-demo:latest'
         GITHUB_CREDENTIALS = 'github-creds'
-        FRAPPE_DOCKER_PATH = '/var/lib/jenkins/workspace/frappe_docker'
+        FRAPPE_DOCKER_PATH = 'frappe_docker'
     }
 
     stages {
