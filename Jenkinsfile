@@ -64,7 +64,7 @@ pipeline {
                     docker build \
                       --build-arg http_proxy=http://192.0.2.12:8080 \
                       --build-arg https_proxy=http://192.0.2.12:8080 \
-                      --build-arg NO_PROXY=192.0.2.50:8081 \
+                      --build-arg no_proxy=192.0.2.50:8081 \
                       --build-arg=FRAPPE_PATH=https://github.com/frappe/frappe \
                       --build-arg=FRAPPE_BRANCH=version-15 \
                       --build-arg=PYTHON_VERSION=3.11.6 \
