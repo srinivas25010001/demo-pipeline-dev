@@ -99,8 +99,8 @@ pipeline {
         }
         always {
             // Clean up local image
-            // sh "docker rmi ${IMAGE_NAME} || true"
-            // sh "docker builder prune -f"
+            sh "docker rmi ${IMAGE_NAME} || true"
+            sh "docker builder prune -f"
         }
     }
 }
