@@ -26,7 +26,7 @@ pipeline {
                                 "branch": "version-15"
                             },
                             {
-                                "url": "https://${GIT_USER}:${GIT_PASS}@github.com/Abhishek9938/UAT_dev_jute_smart.git",
+                                "url": "https://${GIT_USER}:${GIT_PASS}@github.com/srinivas25010001/dev_jute_smart.git",
                                 "branch": "main"
                             }
                         ]
