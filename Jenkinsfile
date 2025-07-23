@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone dev_jute_smart App') {
             steps {
-                git branch: 'main', credentialsId: GITHUB_CREDENTIALS, url: ''
+                git branch: 'main', credentialsId: GITHUB_CREDENTIALS, url: 'https://github.com/Abhishek9938/UAT_dev_jute_smart.git'
             }
         }
 
