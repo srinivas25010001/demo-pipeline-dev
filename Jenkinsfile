@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         HARBOR_CREDENTIALS = 'harbor-creds'
-        IMAGE_NAME = '10.212.132.157/demo/dev-demo:latest'
+        IMAGE_NAME = '10.212.132.157/dev-jute/devapp:latest'
         GITHUB_CREDENTIALS = 'github-creds'
         FRAPPE_DOCKER_PATH = 'frappe_docker'
     }
