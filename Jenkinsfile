@@ -81,7 +81,7 @@ pipeline {
 							  --build-arg=NODE_VERSION=18.18.2 \
 							  --build-arg=APPS_JSON_BASE64='${appsJsonBase64}' \
 							  --tag=${MAIN_IMAGE_NAME} \
-							  --file=Dockerfile \
+							  --file=Containerfile \
 							  .
                         """
                     }
